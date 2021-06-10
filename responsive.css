@@ -1,0 +1,185 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 25px;
+  }
+
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .main {
+    padding: 40px 65px 25px 65px;
+  }
+
+  .main h1 {
+    margin-bottom: 24px;
+    font-size: 22px;
+  }
+
+  .main h2 {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .main__button,
+  .section5-row2 {
+    font-size: 12px;
+  }
+
+  .header-right a {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+
+  .section2-row2 {
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .section2-row2-col1 {
+    order: 2;
+  }
+
+  .section2-row2-col1 h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section2-row2-col1 p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .section2-row2-col2 {
+    order: 1;
+  }
+
+  .section2-row2-col2,
+  .section3-col1,
+  .section4-row2-col2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+  }
+
+  .section3 {
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .section3-col2 h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section3-col2 p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .section4-row2 {
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .section4-row2-col1 {
+    order: 2;
+  }
+
+  .section4-row2-col1 h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section4-row2-col1 p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .section4-row2-col2 {
+    order: 1;
+  }
+
+  .section5 {
+    padding: 100px 50px;
+  }
+
+  .section5-row1 {
+    font-size: 25px;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+  }
+
+  .footer-row2 {
+    padding: 50px 15px;
+  }
+
+  .frow2 {
+    flex: auto;
+    width: 100%;
+  }
+
+  .frow2.col1 h2 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .frow2.col1 p {
+    font-size: 13px;
+    text-align: left;
+    max-width: 275px;
+  }
+
+  input {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .btn.subscribe {
+    display: flex;
+    width: max-content;
+    margin-bottom: 100px;
+    margin-bottom: 40px;
+  }
+
+  .frow2.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .frow2.col2 > *:first-child {
+    margin-bottom: 16px;
+  }
+
+  .frow2.col2 > *:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .frow2.col2-words > p {
+    font-size: 13px;
+  }
+
+  .frow2.col2-words > *:first-child {
+    text-align: left;
+    max-width: 280px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  input {
+    max-width: 375px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
